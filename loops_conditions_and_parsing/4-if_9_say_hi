@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+#if 9 day hi
+
+counter=1
+while [ $counter -le 10 ]; do
+echo "Best School"
+if [[ $counter -eq 9 ]]; then
+echo "Hi"
+fi
+((counter++))
+done
